@@ -1,5 +1,7 @@
 # Pet Classifier
 
+[![CI](https://github.com/ArnavGoel03/pet-classifier/actions/workflows/ci.yml/badge.svg)](https://github.com/ArnavGoel03/pet-classifier/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 A convolutional neural network that classifies pet breeds from photos, built on top of the **Oxford-IIIT Pet Dataset** (37 breeds of cats and dogs, ~7,400 images).
 
 Grew out of a high-school AI elective at Delhi Public School, R. K. Puram — the original used a private school-provided dataset; this reproducible version swaps in the public Oxford-IIIT benchmark so anyone can clone and run it.
