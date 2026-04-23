@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Pet Breed Classifier: MobileNetV2 Transfer Learning on the Oxford-IIIT Pet Dataset"
+abstract: >-
+  A convolutional neural network that classifies 37 cat and dog breeds from
+  photos using transfer learning with MobileNetV2 pretrained on ImageNet.
+  Trained and evaluated on the Oxford-IIIT Pet Dataset (~7,400 images).
+  Reaches approximately 92% test accuracy after head-training and fine-tuning.
+  Originally developed as part of a high-school AI elective at Delhi Public
+  School, R. K. Puram; this reproducible version replaces the original private
+  dataset with the public Oxford-IIIT benchmark.
+type: software
+authors:
+  - family-names: Goel
+    given-names: Arnav
+    orcid: "https://orcid.org/0009-0007-6477-6501"
+    affiliation: "University of California, San Diego"
+    email: a2goel@ucsd.edu
+repository-code: "https://github.com/ArnavGoel03/pet-classifier"
+license: MIT
+keywords:
+  - machine learning
+  - deep learning
+  - computer vision
+  - transfer learning
+  - MobileNetV2
+  - image classification
+  - TensorFlow
+  - Keras
+  - Oxford-IIIT Pet Dataset
